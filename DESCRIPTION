@@ -1,0 +1,21 @@
+Package: RGibbsTypePriors
+Title: Computing clusters prior distribution for Gibbs-type processes
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Anon1",
+           family = "Anon1",
+           role = c("aut"),
+           email = "Anon1"),
+    person(given = "Anon2",
+           family = "Anon2",
+           role = c("aut", "cre"),
+           email = "Anon2"))
+Description: This package provides a list of functions to compute exactly or to approximate the prior distribution for Gibbs-type processes. This can be either used for Bayesian Nonparametric prior calibration or for more general exploration of Gibbs-type processes.
+License: MIT + file LICENSE
+URL: https://github.com/AABI-Gibbs-type-priors/AABI-RGibbs-type-priors
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
